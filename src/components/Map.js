@@ -1,9 +1,8 @@
-import map from '../mother-russia.svg'
+// import map from '../mother-russia.svg'
 
 export default function Map() {
   return (
     <div className='map__container'>
-      {/* <img src={map} /> */}
     </div>
   )
 }
