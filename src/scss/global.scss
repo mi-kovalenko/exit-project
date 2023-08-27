@@ -1,3 +1,5 @@
+// цвета и шрифты
+
 @font-face {
   font-family: "Stolzl";
   font-weight: 400;
@@ -16,17 +18,29 @@
   font-display: swap;
 }
 
-// цвета и шрифты
-
 :root {
   --light: #f4f3ee;
   --dark: #413A2E;
   --accent: #969AFF;
 }
 
+// базовые стили 
+
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
   font-family: 'Stolzl';
   font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--dark);
+  background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5, h6 {
