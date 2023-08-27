@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 400;
+  font-style: normal;
+
+  src: url("../StolzlRegular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-style: normal;
+
+  src: url("../HelveticaNeueCyr-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+// цвета и шрифты
+
+:root {
+  --light: #f4f3ee;
+  --dark: #413A2E;
+  --accent: #969AFF;
+}
+
+body {
+  font-family: 'Stolzl';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}

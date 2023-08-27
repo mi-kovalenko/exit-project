@@ -1,4 +1,5 @@
-// import '../scss/Main.scss'
+import '../scss/global.scss'
+import '../scss/main.scss'
 
 export default function Main() {
   return(
